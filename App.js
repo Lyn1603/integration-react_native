@@ -67,14 +67,14 @@ export default function App() {
 
          {/* QUESTION 1 */}
 
-      <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}}>
+      <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1'}}>
 
       <Menu
           visible={visible}
           anchor={<Text onPress={showText} style={{marginLeft:'15px', marginTop: '10px', fontWeight: 600, }}>Comment faire un nouveau post ?</Text>}
           onRequestClose={hideText}
       >
-      <Text onPress={hideText} style={{marginTop: '7px', height: '153px', width: '270px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}} >
+      <Text onPress={hideText} style={{height: '153px', width: '270px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1' }} >
 
       <Text style={{marginLeft:'10px', marginTop: '15px', fontWeight: 600, fontSize: '1rem' }}> Comment faire un nouveau post ? </Text>
       <div style={{textAlign: 'center', marginLeft:'5px', marginTop: '20px',   }}> Pour faire <Text style={{fontWeight: 600, color: '#9002C1'}}>un nouveau Post</Text> il faut cliquer  sur le bouton noir dans la bar
@@ -87,14 +87,14 @@ export default function App() {
 
        {/* QUESTION 2 */}
 
-     <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}}>
+     <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1'}}>
 
      <Text style={{marginLeft:'10px', marginTop: '10px', fontWeight: 600 }}> Comment voir ses mensurations ? </Text>
 
     </View>
 
        {/* QUESTION 3 */}
-    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}}>
+    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1'}}>
 
       <Text style={{marginLeft:'10px', marginTop: '10px', fontWeight: 600 }}> Comment ajouter aux favoris ? </Text>
 
@@ -102,16 +102,16 @@ export default function App() {
 
         {/* QUESTION 4 */}
 
-    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}}>
+    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1'}}>
 
-      <Text style={{marginLeft:'10px', marginTop: '10px', fontWeight: 600 }}> Comment partager ? </Text>
+      <Text style={{marginLeft:'10px', marginTop: '7px', fontWeight: 600 }}> Comment partager ? </Text>
 
     </View>
 
         {/* QUESTION 5 */}
 
 
-    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}}>
+    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1'}}>
 
       <Text style={{marginLeft:'10px', marginTop: '10px', fontWeight: 600 }}> Comment voir son niveau de badge ? </Text>
 
@@ -121,7 +121,7 @@ export default function App() {
 
 
       
-    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', border: '#9002C1'}}>
+    <View style={{ marginTop: '30px', height: '40px', width: '270px', marginLeft: '25px', backgroundColor: '#E2CBEA', borderRadius: '10px', borderStyle: 'solid', borderWidth: 2, borderColor: '#9002C1'}}>
 
       <Text style={{marginLeft:'10px', marginTop: '10px', fontWeight: 600 }}> Comment changer de status ? </Text>
 
@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
    height: '3px',
    width: '45px',
    borderRadius: '10px',
-   marginTop: '10px',
+   marginTop: '15px',
   },
 
   span2: {
@@ -207,7 +207,7 @@ const styles = StyleSheet.create({
     height: '3px',
     width: '40px',
     borderRadius: '10px',
-    marginTop: '10px',
+    marginTop: '3px',
   
    },
 
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
     height: '3px',
     width: '30px',
     borderRadius: '10px',
-    marginTop: '10px',
+    marginTop: '3px',
    },
 });
 
